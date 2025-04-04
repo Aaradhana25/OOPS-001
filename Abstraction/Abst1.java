@@ -2,13 +2,13 @@ abstract class Animal {
     abstract void makeSound(); // Abstract method
 
     void sleep() {
-        System.out.println("Sleeping... 😴");
+        System.out.println("Sleeping.");
     }
 }
 
 class Dog extends Animal {
     public void makeSound() {
-        System.out.println("Woof! Woof! 🐶");
+        System.out.println("Woof! Woof! ");
     }
 }
 
